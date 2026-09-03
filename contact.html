@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Ashish Kumar Verma.">
+    <title>Contact | Ashish Kumar Verma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+        <a class="brand" href="https://ashish0431.github.io/Ashish-portfolio/" target="_blank" rel="noopener">
+            <img src="profile.jpg" alt="Ashish Kumar Verma profile">
+            <span>Ashish Kumar Verma</span>
+        </a>
+        <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="page-heading container reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h1>Contact Me</h1>
+        <p>Have a question or want to get in touch? Use the information below.</p>
+    </section>
+
+    <section class="contact-grid container">
+        <div class="contact-details reveal">
+            <h2>Get In Touch</h2>
+            <p>I'm based in Varanasi, India.</p>
+
+            <a class="contact-item" href="mailto:ashishkumarverma0431@gmail.com">
+                <span>📧</span>
+                <div>
+                    <strong>Email</strong>
+                    <small>ashishkumarverma0431@gmail.com</small>
+                </div>
+            </a>
+
+            <a class="contact-item" href="tel:+919004548921">
+                <span>📱</span>
+                <div>
+                    <strong>Phone</strong>
+                    <small>+91 90045 48921</small>
+                </div>
+            </a>
+
+            <div class="contact-item">
+                <span>📍</span>
+                <div>
+                    <strong>Location</strong>
+                    <small>Varanasi, India</small>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+            <label for="name">Your Name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+            <button class="btn primary" type="submit">Send Message</button>
+            <p class="form-note">The button opens your email app with the message prepared.</p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Ashish Kumar Verma. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
